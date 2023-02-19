@@ -1,1 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7baab8ee66.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="d-flex flex-row justify-content-center">
+        <h1 class="text-white text-uppercase nav-heading text-center">
+          PADMINI<span class="text-link1"> G M S</span>
+        </h1>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#home"
+            >HOME <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link text-white" href="#about">About me</a>
+          <a class="nav-link text-white" href="#project">Projects</a>
+          <a class="nav-link text-white" href="#follow">Follow Me</a>
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="main-bg-container d-flex flex-column justify-content-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <img src="portfolio.jpg" class="main-bg-image mt-3 mb-2" />
+          </div>
+          <div
+            class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center ml-3"
+          >
+            <h1 class="main-heading mb-3">
+              Hello, I'm <br /><br />
+              <span class="text-link1" style="font-size: 50px"
+                >PADMINI G M S</span
+              >
+            </h1>
+            <p class="main-discription mb-3">
+              I am currently looking for a full-time job in Software
+              Development.
+            </p>
+            <button class="main-button pt-2 mb-2">
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-container pt-5 pb-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content-center"
+          >
+            <h1 class="about-main-heading mb-3">ABOUT ME</h1>
+            <img
+              src="https://res.cloudinary.com/db9r5kzvb/image/upload/v1674714222/PicsArt_06-20-07.30.43-01_qabojp.jpg"
+              class="about-image d-md-none mb-3"
+            />
+            <p class="about-text">
+              My name is Gollapudi Mahalakshmi Sai Padmini, and I am currently
+              looking for a job in Software Development and Web Developer roles.
+              I'm pursuing B.TECH 3rd year in Anurag University, Hyderabad.My
+              CGPA is 9.62. I'm self-motivated, team player with excellent
+              communication skills and leadership skills. I enjoy learning about
+              new technologies.
+              <br /><br />
+              Hobbies: Reading books, Listening Music, Writing Poems.
+              <br /><br />
+            </p>
+          </div>
+          <div class="col-12 col-md-6 order-2 order-md-1 d-none d-md-block">
+            <img src="r.jpg" class="about-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skills-container pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="about-heading">SKILLS :</h1>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">HTML</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">CSS</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">C</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">C++</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">PYTHON</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://static.javatpoint.com/images/javascript/javascript_logo.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">JS</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">PHP</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://www.freecodecamp.org/news/content/images/2022/05/ilya-pavlov-OqtafYT5kTw-unsplash.jpg"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">CODING</h1>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">BOOTSRAP</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://www.innovationtraining.org/wp-content/uploads/2022/05/Creative-Problem-Solving-Process.jpeg"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">PROBLEM SOLVING</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-3">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPKytUCcUpGrNjeuz5CtFj0ihusSvkBNcnDLm_7f_YkusZRbIlcK2mlAIPevjax2cIZGA&usqp=CAU"
+                class="skills-card-image"
+              />
+              <h1 class="skills-card-title">CRITICAL THINKING</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-section pt-5 pb-5" id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="portfolio-main-heading">PROJECTS I HAVE DONE</p>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <div class="project-card shadow">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSpDhuf_t0kIqHD6FdRVR0TlD6IfPXTSxh8w&usqp=CAU"
+                class="project-image mb-3"
+              />
+              <h1 class="project-sub-heading mb-3">WEB DESIGN</h1>
+              <h1 class="project-main-heading mb-3">Jewellery Shop Design</h1>
+              <p class="project-discription">
+                G M S Jewellery is a dynamic website. I have created with using
+                html,css,js,php skills. I have made it dynamic by keeping a cart
+                program. I enjoyed a lot while doing this project and learnt a
+                lot.
+              </p>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#cced00"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              ></svg>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <div class="project-card shadow">
+              <img
+                style="width: 400px"
+                src="https://personal.math.ubc.ca/~cass/courses/m308-02b/projects/grant/fifteen/15grid1.jpg"
+                class="project-image mb-3"
+              />
+              <h1 class="project-sub-heading mb-3">WEB DESIGN</h1>
+              <h1 class="project-main-heading mb-3">15 Puzzle Game</h1>
+              <p class="project-discription">
+                15 -PUZZLE GAME is the game I made along with Tic Tac Toe game
+                which I made use of my skills i.e HTML, CSS, JS and I made it
+                dynamic if I we win the game we get a popup message else we get
+                an other chance.
+              </p>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#cced00"
+                class="bi bi-arrow-right-short"
+                viewBox="0 0 16 16"
+              ></svg>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-row justify-content-end"></div>
+      </div>
+    </div>
+    <div class="work-done-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60px"
+              height="60px"
+              fill="white"
+              class="bi bi-clock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+              />
+            </svg>
+            <hr class="hr-line" />
+            <h1 class="work-done-card-title">20</h1>
+            <h1 class="work-done-card-sub-title">Skills acquired</h1>
+          </div>
+          <div class="col-4 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60px"
+              height="60px"
+              fill="white"
+              class="bi bi-hand-thumbs-up"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"
+              />
+            </svg>
+            <hr class="hr-line" />
+            <h1 class="work-done-card-title">10</h1>
+            <h1 class="work-done-card-sub-title">Projects Completed</h1>
+          </div>
+          <div class="col-4 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="60px"
+              height="60px"
+              fill="white"
+              class="bi bi-file-text"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
+              />
+              <path
+                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
+              />
+            </svg>
+            <hr class="hr-line" />
+            <h1 class="work-done-card-title">200</h1>
+            <h1 class="work-done-card-sub-title">
+              Programming questions Solved
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">FOLLOW</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container bg-white">
+                <a class="fab fa-twitter icon-font" href="https://twitter.com/" style="color: skyblue"></a>
+              </a>
+              </div>
+              <div class="follow-us-icon-container bg-white">
+                <a class="fab fa-youtube icon-font" href="https://www.youtube.com/"  style="color: red"></a>
+              </div>
+              <div class="follow-us-icon-container bg-white">
+                <a class="fab fa-facebook icon-font" href="https://www.facebook.com/login/" style="color: blue"></a>
+              </div>
+              <div class="follow-us-icon-container bg-white">
+                <a class="fab fa-linkedin icon-font"  href="https://www.linkedin.com/feed/" style="color: blue"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5" id="">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 mb-3">
+            <div class="d-flex flex-row">
+              <img
+                src="https://www.valueresearchonline.com/content-assets/images/49260_20210426-vr-premium__w660__.jpg"
+                class="footer-image"
+              />
+              <div class="ml-3">
+                <h1 class="footer-card-heading">PADMINI G M S</h1>
+            
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <h1 class="footer-card-heading mb-2">G-Mail</h1>
+            <div>
+              <i class="fas fa-envelope icon"></i>
+              <span class="footer-card-text ml-2"
+                >20eg105415@anurag.edu.in</span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <h1 class="footer-card-heading mb-2">Address</h1>
+            <div>
+              <i class="fas fa-map-marked-alt icon"></i>
+              <span class="footer-card-text ml-2">Ramanthapur, Hyderabad.</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 mb-3">
+            <h1 class="footer-card-heading mb-2">Phone No.</h1>
+            <div>
+              <i class="fas fa-phone-alt icon"></i>
+              <span class="footer-card-text ml-2">65496546547</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-card-copyright-container">
+      <i class="fa fa-copyright icon" aria-hidden="true"></i>
+      <span class="footer-card-text"
+        >CREATERD BY PADMINI G M S. FEB 2023</span
+      >
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
 
